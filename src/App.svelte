@@ -108,10 +108,10 @@
 
 <main>
   <Navbar />
-  <h1>Welcome to the Great Realm of Bartholomue!</h1>
-  <h2>The best site ever</h2>
-  <button class="button" on:click={incrementCount}>Pet Bartholomue ✋🐈</button>
-  <p>Bartholomue has been petted {count} times.</p>
+  <h1>Welcome to the Punch mahito site!</h1>
+  <h2>I hate mahito -Creator and probably a lot of other people</h2>
+  <button class="button" on:click={incrementCount}>Punch mahito</button>
+  <p>Mahito has been punched {count} times.</p>
   <button class="resetbutton" on:click={reset}>
     {confirmReset ? "Are you sure?" : "Reset"}
   </button>

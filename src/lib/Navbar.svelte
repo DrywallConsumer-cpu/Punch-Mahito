@@ -49,7 +49,7 @@
 
 <div
         class="navbar"
-        style="background-image: url('/barthnavbar.png');"
+        style="background-color:black"
 >
-    <div class="navbar-text">GREAT REALM OF BARTHOLOMUE</div>
+    <div class="navbar-text">PUNCH MAHITO</div>
 </div>
