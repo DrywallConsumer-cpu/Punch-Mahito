@@ -117,7 +117,7 @@
   </button>
   <br><br>
   <button on:click={buyClicker} class="button">Add Puncher ({clickerCost} clicks)</button>
-  <p>You have {clickerCount} clickers running, each adding {clickerGain} clicks per second!</p>
+  <p>You have {clickerCount} punchers running, each adding {clickerGain} punches per second!</p>
   <br>
   <button on:click={buyMultiplier} class="button">Add Multiplier ({multiplierCost} clicks)</button>
   <p>Your punches is being incremented by {amountGained} every click!</p>
