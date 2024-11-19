@@ -116,13 +116,13 @@
     {confirmReset ? "Are you sure?" : "Reset"}
   </button>
   <br><br>
-  <button on:click={buyClicker} class="button">Add Clicker ({clickerCost} clicks)</button>
+  <button on:click={buyClicker} class="button">Add Puncher ({clickerCost} clicks)</button>
   <p>You have {clickerCount} clickers running, each adding {clickerGain} clicks per second!</p>
   <br>
   <button on:click={buyMultiplier} class="button">Add Multiplier ({multiplierCost} clicks)</button>
-  <p>Your count is being multiplied by {amountGained} every click!</p>
+  <p>Your punches is being incremented by {amountGained} every click!</p>
   <br>
-  <button on:click={buyClickerMultiplier} class="button">Add Clicker Multiplier ({clickerMultiplierCost} clicks)</button>
+  <button on:click={buyClickerMultiplier} class="button">Add Puncher Multiplier ({clickerMultiplierCost} clicks)</button>
 </main>
 
 <style>
