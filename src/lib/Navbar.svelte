@@ -24,6 +24,7 @@
         font-size: 48px;
         font-weight: bold;
         font-style: italic;
+        color: white;
     }
 
     .navbar-links {
